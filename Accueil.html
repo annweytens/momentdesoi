@@ -1,12 +1,14 @@
 ﻿<html>
 		<head>
 			<meta charset="utf-8">
-			<meta name="viewport" content="width=device-width, initial-scale=1">
-			<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-			<link href="css/Style.css" rel="stylesheet">
-			<script src="bootstrap/jquery/jquery-3.1.1.min.js"></script>
-			<script src="bootstrap/js/bootstrap.min.js"></script>
-			<script src="js/script.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://maps.googleapis.com/maps/api/js"></script>
+	<script src="bootstrap/jquery/jquery-3.1.1.min.js"></script>
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+
+<link href="css/Style.css" rel="stylesheet">
+<script type="text/javascript" src="js/script.js"></script>
 		
 			<title>Moment de soi</title>
 		
@@ -74,13 +76,17 @@
 			</div>
 		</nav>
 
-	</header>
+	</header> 
+	
+	
+	
+	
 	
 	
 	
 
 
-    <div class="row">
+   <div class="row">
         <div class="col-md-12">
             <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
@@ -91,19 +97,19 @@
                 </ol>
                 <div class="carousel-inner">
                     <div class="item active">
-                        <img src="img/slider/slider1.jpg" alt="First slide">
+                        <img class="taille" src="img/slider/slider1.jpg" alt="First slide">
                         
                     </div>
                     <div class="item">
-                        <img src="img/slider/slider2.jpg" alt="Second slide">
+                        <img class="taille" src="img/slider/slider2.jpg" alt="Second slide">
                         
                     </div>
                     <div class="item">
-                        <img src="img/slider/slider3.jpg" alt="Third slide">
+                        <img class="taille" src="img/slider/slider3.jpg" alt="Third slide">
                        
                     </div>
 					<div class="item">
-                        <img src="img/slider/slider4.jpg" alt="Third slide">
+                        <img class="taille" src="img/slider/slider4.jpg" alt="Third slide">
                         
                     </div>
                 </div>
@@ -125,18 +131,87 @@
     </div>
 	
 	
-	<div class="container-fluid">
-	
-		<div class="col-lg-3"><img src="img/phone.png"/>
-		<h3>CONTACT</h3>
-		<p>06 54 48 28 12</p>
-        <p>06 12 23 45 66</p>
+	<div class="container marketing">
+
+     
+	 <!-- Three columns of text below the carousel -->
+     
+	 <div class="row">
+        <div class="col-lg-4">
+          <img class="img-circle" src="img/phone.png" alt="Generic placeholder image" width="140" height="140">
+          <h2>CONTACT</h2>
+          <div class="col-md-5">
+                    <ul class="part">
+                        <li class="text_footer">Sylvie PLUS :</li>
+                        </br>
+						<li class="text_footer">Adresse :</li>
+						 </br>
+						
+						<li class="text_footer">Mail :</li>
+                        
+					</ul>
+				</div>
+				
+				<div class="col-md-7">
+                    <ul class="part">
+                        <li class="text_footer">06 54 48 28 12</li>
+                        <li class="text_footer">06 12 23 45 66</li>
+						<li class="text_footer">547 rue Saint-Jean</li>
+						<li class="text_footer">59246 Mons-En-Pévèle</li>
+						<li class="text_footer">sylvie.plus@outlook.fr</li>
+						
+                        
+					</ul>
+				</div>
+          
+        </div>
 		
+        <div class="col-lg-4">
+          <img class="img-circle" src="img/time.png" alt="Generic placeholder image" width="140" height="140">
+          <h2>HORAIRE</h2>
+          <div class="col-md-6">
+                    <ul class="part">
+                        <li class="text_footer">Lundi</li>
+                        <li class="text_footer">Mardi</li>
+                        <li class="text_footer">Mercredi</li>
+						<li class="text_footer">Jeudi</li>
+						<li class="text_footer">Vendredi</li>
+						<li class="text_footer">Samedi</li>
+						<li class="text_footer">Dimanche</li>
+                        
+                    </ul>
+                </div>
+            	<div class="col-md-6">
+                    <ul class="part">
+                        <li class="text_footer">Fermé</li>
+                        <li class="text_footer">9h30 - 19h00</li>
+						<li class="text_footer">9h30 - 19h00</li>
+						<li class="text_footer">9h30 - 19h00</li>
+						<li class="text_footer">9h30 - 19h00</li>
+                        <li class="text_footer">9h30 - 14h00</li>
+						<li class="text_footer">Fermé</li>
+                        
+                    </ul>
+                </div>
+          
+        </div>
 		
+		<div class="col-lg-4">
+		
+		<img class="img-circle" src="img/home.png" alt="Generic placeholder image" width="140" height="140">
+          <h2>ADRESSE</h2>
+		
+		<div id="googleMap" style="height:270px;width:100%;"></div>
 		</div>
 		
-	
-	</div>
+        
+      </div>
+	  
+	  
+	  
+
+
+      
 
 
 
