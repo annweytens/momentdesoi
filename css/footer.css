@@ -1,0 +1,12 @@
+/*======================
+====footer CSS=====
+=======================*/
+
+footer{
+	margin:20px;
+}
+
+.text_footer{
+	color:black;
+	list-style-type:none;
+}

@@ -1,0 +1,41 @@
+/*======================
+====Header/navbar=====
+=======================*/
+
+.topprestation{
+	text-align:left;
+	color:#610B5E;
+	Font-Weight: Bold;
+	font-size:14px;
+}
+.prestation{
+	color:black;
+	font-size:11px;
+}
+
+  .navbar {
+      margin-bottom: 0;
+      background:black;
+      z-index: 9999;
+      border: 0;
+      font-size: 12px !important;
+      line-height: 1.42857143 !important;
+      letter-spacing: 4px;
+      border-radius: 0;
+      font-family: Montserrat, sans-serif;
+  }
+  .navbar li a, .navbar .navbar-brand {
+      color: #fff !important;
+  }
+  .navbar-nav li a:hover, .navbar-nav li.active a {
+      color: #610B5E !important;
+      background-color: #fff !important;
+  }
+  .navbar-default .navbar-toggle {
+      border-color: transparent;
+      color: #fff !important;
+  }
+  
+  .size{
+	width:100%;
+}

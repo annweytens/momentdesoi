@@ -13,10 +13,6 @@ footer{
 }
 
 
-.carousel-caption{
-	margin:auto;
-}
-
 
 
 .ac{
@@ -28,120 +24,155 @@ footer{
   line-height: 40px;
   text-align: center;
 }
-.logo_header{
-	position:absolute;
-	top:0px;
-	left:20px;
-	
-	width:2%;
-}
-
-.logo_footer{
-	width:40%;
-}
-
-.text_footer{
-	color:black;
-	list-style-type:none;
-}
 
 /*======================
-====Header/navbar=====
+====Accueil=====
 =======================*/
 
-.topprestation{
-	text-align:left;
-	color:#610B5E;
-	Font-Weight: Bold;
-	font-size:14px;
-}
-.prestation{
-	color:black;
-	font-size:11px;
+.logo_header{
+	width:5%;
 }
 
-  .navbar {
-      margin-bottom: 0;
-      background-color:black;
-      z-index: 9999;
-      border: 0;
-      font-size: 12px !important;
-      line-height: 1.42857143 !important;
-      letter-spacing: 4px;
-      border-radius: 0;
-      font-family: Montserrat, sans-serif;
-  }
-  .navbar li a, .navbar .navbar-brand {
-      color: #fff !important;
-  }
-  .navbar-nav li a:hover, .navbar-nav li.active a {
-      color: #610B5E !important;
-      background-color: #fff !important;
-  }
-  .navbar-default .navbar-toggle {
-      border-color: transparent;
-      color: #fff !important;
-  }
-  
-  .size{
-	width:100%;
-}
+
+
+
+
+
 
 /*======================
 ====Carousel=====
 =======================*/
 
+.carousel-caption{
+	margin:auto;
+}
 
-.main-text
-{
+
+
+/********************************/
+/*       Fade Bs-carousel       */
+/********************************/
+.fade-carousel {
+    position: relative;
+    height: 80vh;
+}
+.fade-carousel .carousel-inner .item {
+    height: 80vh;
+}
+.fade-carousel .carousel-indicators > li {
+    margin: 0 2px;
+    background-color: #f39c12;
+    border-color: #f39c12;
+    opacity: .7;
+}
+.fade-carousel .carousel-indicators > li.active {
+  width: 10px;
+  height: 10px;
+  opacity: 1;
+}
+
+
+
+/********************************/
+/*          Hero Headers        */
+/********************************/
+.hero {
     position: absolute;
-    top: 300px;
-    width: 96.66666666666666%;
-    
+    top: 50%;
+    left: 50%;
+    z-index: 3;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 0 rgba(0,0,0,.75);
+      -webkit-transform: translate3d(-50%,-50%,0);
+         -moz-transform: translate3d(-50%,-50%,0);
+          -ms-transform: translate3d(-50%,-50%,0);
+           -o-transform: translate3d(-50%,-50%,0);
+              transform: translate3d(-50%,-50%,0);
+	border: 3px solid;
 }
-.titre_carou{
-	color:white;
+.hero h1 {
+    font-size: 6em;    
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
 }
+
+.fade-carousel .carousel-inner .item .hero {
+    opacity: 0;
+    -webkit-transition: 2s all ease-in-out .1s;
+       -moz-transition: 2s all ease-in-out .1s; 
+        -ms-transition: 2s all ease-in-out .1s; 
+         -o-transition: 2s all ease-in-out .1s; 
+            transition: 2s all ease-in-out .1s; 
+}
+.fade-carousel .carousel-inner .item.active .hero {
+    opacity: 1;
+    -webkit-transition: 2s all ease-in-out .1s;
+       -moz-transition: 2s all ease-in-out .1s; 
+        -ms-transition: 2s all ease-in-out .1s; 
+         -o-transition: 2s all ease-in-out .1s; 
+            transition: 2s all ease-in-out .1s;    
+}
+
+/********************************/
+/*            Overlay           */
+/********************************/
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+   
+}
+
+
+/********************************/
+/*       Slides backgrounds     */
+/********************************/
+.fade-carousel .slides .slide-1, 
+.fade-carousel .slides .slide-2,
+.fade-carousel .slides .slide-3,
+.fade-carousel .slides .slide-4 {
+  height: 80vh;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.fade-carousel .slides .slide-1 {
+  background-image: url(../img/slider/slider11.jpg); 
+}
+.fade-carousel .slides .slide-2 {
+  background-image: url(../img/slider/slider22.jpg);
+}
+.fade-carousel .slides .slide-3 {
+  background-image: url(../img/slider/slider33.jpg);
+}
+.fade-carousel .slides .slide-4 {
+  background-image: url(../img/slider/slider44.jpg);
+}
+
+/********************************/
+/*          Media Queries       */
+/********************************/
+@media screen and (min-width: 980px){
+    .hero { width: 980px; }    
+}
+@media screen and (max-width: 640px){
+    .hero h1 { font-size: 4em; }    
+}
+
+
+
+
 
 
 
 
 /*======================
-====logo accueil CSS=====
+====Bordel anne-so=====
 =======================*/
-
-.logo{
-	width:50%;
-}
-
-
-
-/*======================
-====footer CSS=====
-=======================*/
-
-.footer-bs {
-    background-color: #3c3d41;
-	/*padding: 60px 40px;*/
-	color: rgba(255,255,255,1.00);
-	margin-bottom: 20px;
-	
-}
-
-
-.footer-bs .footer-nav ul.part { list-style:none; padding:0px; }
-.footer-bs .footer-nav ul.part { color:rgba(255,255,255,0.80); text-decoration:none; }
-
-
-
-@media (min-width: 768px) {
-	.footer-bs .footer-nav, .footer-bs .footer-social, .footer-bs .footer-ns { border-left:solid 1px rgba(255,255,255,0.10); }
-}
-
-
-
-
-//////
 
   .jumbotron {
       background-color: #f4511e;

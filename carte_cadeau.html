@@ -1,23 +1,26 @@
-﻿<html>
-		<head>
+<html>
+<head>
 			<meta charset="utf-8">
 			<meta name="viewport" content="width=device-width, initial-scale=1">
 			<script src="https://maps.googleapis.com/maps/api/js"></script>
 			<script src="bootstrap/jquery/jquery-3.1.1.min.js"></script>
 			<script src="bootstrap/js/bootstrap.min.js"></script>
 			<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-			<link href="css/Style.css" rel="stylesheet">
+			<link rel="stylesheet" href="css/carte_cadeau.css">
 			<link rel="stylesheet" href="css/navbar.css">
 			<link rel="stylesheet" href="css/footer.css">
+			<link rel="stylesheet" href="css/Style.css">
 			<script type="text/javascript" src="js/script.js"></script>
 		
 			<title>Moment de soi</title>
 		
 		</head>
 
-	<body>
 
-		<header>
+
+<body>
+
+<header>
 
 			<nav class="navbar navbar-default navbar-fixed-top">
 				<div class="container">
@@ -75,78 +78,106 @@
 			</div>
 		</nav>
 
-	</header> 
-	
-	
-	
-	
-	
-	<!-- Carousel-->
-	
-   <div class="carousel fade-carousel slide" data-ride="carousel" data-interval="4000" id="bs-carousel">
-	<!-- Overlay -->
-		<div class="overlay"></div>
+	</header>
 
-			<!-- Indicators -->
-				<ol class="carousel-indicators">
-					<li data-target="#bs-carousel" data-slide-to="0" class="active"></li>
-					<li data-target="#bs-carousel" data-slide-to="1"></li>
-					<li data-target="#bs-carousel" data-slide-to="2"></li>
-					<li data-target="#bs-carousel" data-slide-to="3"></li>
-				</ol>
-  
-			<!-- Wrapper for slides -->
-				<div class="carousel-inner">
-					<div class="item slides active">
-					<div class="slide-1"></div>
-					<div class="hero">
-						<hgroup>
-							<h1>Moment de soi</h1>        
-							<h3>Institut de beauté</h3>
-										
-						</hgroup>
+
+
+
+<!-- Formulaire-->
+
+<div id="blocform">
+<div class="container">
+	<div class="row">
+     
+          <form class="form-horizontal col-lg-6" action="" method="post">
+          
+            <legend class="text-center">Offrir une carte cadeau</legend>
+    
+            <!-- Pour -->
+            <div class="form-group">
+              <label class="col-md-3 control-label" for="name">Offert à :</label>
+              <div class="col-md-9">
+                <input type="text" class="form-control">
+              </div>
+            </div>
+    
+            <!-- De -->
+            <div class="form-group">
+              <label class="col-md-3 control-label" for="email">De la part de :</label>
+              <div class="col-md-9">
+                <input type="text" class="form-control">
+              </div>
+            </div>
+    
+            <!-- Soin -->
+            <div class="form-group">
+              <label class="col-md-3 control-label" for="message">Pour un soin Yon-ka :</label>
+              <div class="col-md-9">
+                <input class="form-control" type="text">
+              </div>
+            </div>
+			
+			<!-- Jusqu'au -->
+            <div class="form-group">
+              <label class="col-md-3 control-label" for="message">Offre valable jusqu'au</label>
+              <div class="col-md-9">
+                <input class="form-control" type="text">
+              </div>
+            </div>
+    
+            <!-- Form actions -->
+            <div class="form-group">
+              <div class="col-md-12 text-center">
+                <button type="submit" class="btn btn-primary btn-lg">Valider</button>
+              </div>
+            </div>
+          
+          </form>
+		  
+		  
+		  <div class="col-lg-6">
+		  <legend class="text-center">Nous trouver</legend>
+		  <div id="googleMap" style="height:250px;width:100%;"></div>
+		  
+		  </div>
         
-					</div>
-					</div>
-					
-					<div class="item slides">
-					<div class="slide-2"></div>
-					<div class="hero">        
-						<hgroup>
-							<h1>Moment de soi</h1>        
-							<h3>Institut de beauté</h3>
-						</hgroup>       
-        
-					</div>
-					</div>
-					
-					<div class="item slides">
-					<div class="slide-3"></div>
-					<div class="hero">        
-						<hgroup>
-							<h1>Moment de soi</h1>        
-							<h3>Institut de beauté</h3>
-						</hgroup>
-        
-					</div>
-					</div>
-					
-					<div class="item slides">
-					<div class="slide-4"></div>
-					<div class="hero">        
-						<hgroup>
-							<h1>Moment de soi</h1>        
-							<h3>Institut de beauté</h3>
-						</hgroup>
-        
-					</div>
-					</div>
-				</div> 
+	  </div>
+	  </div>
+</div>
+
+
+
+
+<!-- Image-->
+
+<div class="row">
+	<div class="col-lg-2">
+		<img  src="img/icone/iconeMDS.png">
 	</div>
 	
+	<div class="col-lg-2">
+		<img  src="img/icone/iconeMDS.png">
+	</div>
 	
+	<div class="col-lg-2">
+		<img  src="img/icone/iconeMDS.png">
+	</div>
 	
-	<!--footer-->
+	<div class="col-lg-2">
+		<img  src="img/icone/iconeMDS.png">
+	</div>
+	
+	<div class="col-lg-2">
+		<img  src="img/icone/iconeMDS.png">
+	</div>
+	
+	<div class="col-lg-2">
+		<img  src="img/icone/iconeMDS.png">
+	</div>
+</div>
+
+
+<!--footer-->
 	
 	<footer>
 	
@@ -227,11 +258,5 @@
 	  
 	  </footer>
 
-   
-
-    
-
-
-		
-</body>	
+</body>
 </html>
