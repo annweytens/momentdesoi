@@ -95,6 +95,7 @@ footer{
 .hero h1 {
     font-size: 6em;    
     font-weight: bold;
+	 font-family: 'sansation';
     margin: 0;
     padding: 0;
 }

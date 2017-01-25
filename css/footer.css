@@ -19,3 +19,9 @@ footer{
 	border:5px solid;
 	border-color:#298A08;
 }
+[class*="col-"]{
+  
+  color:black;
+  line-height: 40px;
+  text-align: center;
+}
