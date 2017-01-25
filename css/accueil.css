@@ -92,10 +92,16 @@ footer{
               transform: translate3d(-50%,-50%,0);
 	
 }
+
+@font-face{
+		font-family:"Allura-Regular";
+		src:url("../font/AlexBrush-Regular.ttf") format("truetype");
+		
+	}
 .hero h1 {
     font-size: 6em;    
     font-weight: bold;
-	 font-family: 'sansation';
+	font-family:"Allura-Regular";
     margin: 0;
     padding: 0;
 }
