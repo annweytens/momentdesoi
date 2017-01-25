@@ -61,8 +61,8 @@ footer{
 }
 .fade-carousel .carousel-indicators > li {
     margin: 0 2px;
-    background-color: #f39c12;
-    border-color: #f39c12;
+    background-color: #298A08;
+    border-color: #298A08;
     opacity: .7;
 }
 .fade-carousel .carousel-indicators > li.active {
@@ -90,7 +90,7 @@ footer{
           -ms-transform: translate3d(-50%,-50%,0);
            -o-transform: translate3d(-50%,-50%,0);
               transform: translate3d(-50%,-50%,0);
-	border: 3px solid;
+	
 }
 .hero h1 {
     font-size: 6em;    

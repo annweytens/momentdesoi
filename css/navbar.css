@@ -4,7 +4,7 @@
 
 .topprestation{
 	text-align:left;
-	color:#610B5E;
+	color:#298A08;
 	Font-Weight: Bold;
 	font-size:14px;
 }
@@ -15,7 +15,7 @@
 
   .navbar {
       margin-bottom: 0;
-      background:black;
+      background:#6E6E6E;
       z-index: 9999;
       border: 0;
       font-size: 12px !important;
@@ -28,7 +28,7 @@
       color: #fff !important;
   }
   .navbar-nav li a:hover, .navbar-nav li.active a {
-      color: #610B5E !important;
+      color: #298A08 !important;
       background-color: #fff !important;
   }
   .navbar-default .navbar-toggle {

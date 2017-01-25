@@ -7,6 +7,15 @@ footer{
 }
 
 .text_footer{
-	color:black;
+	color:#6E6E6E;
 	list-style-type:none;
+}
+
+.img-circle{
+	box-shadow: 2px 2px 5px #888888;
+}
+
+.img-home{
+	border:5px solid;
+	border-color:#298A08;
 }
