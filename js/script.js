@@ -47,7 +47,7 @@ $(document).ready(function(){
   });
   
   
-  $(window).ready(function() {
+  $(window).scroll(function() {
     $(".slideanim").each(function(){
       var pos = $(this).offset().top;
 
