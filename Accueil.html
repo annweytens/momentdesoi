@@ -33,7 +33,21 @@
 					
 				<div class="collapse navbar-collapse" id="myNavbar">
 					<ul class="nav navbar-nav navbar-right">
-						<li><a href="Accueil.html">ACCUEIL</a></li>
+						<li class="dropdown">
+							<a href="accueil.html" class="dropdown-toggle" data-toggle="dropdown">ACCUEIL <b class="caret"></b></a>
+								<ul class="dropdown-menu">
+									
+									
+									<li class="dropdown-header"><a href="Accueil.html#suggestion"><p class="topprestation">Suggestion</p></a></li>
+										
+										
+									<li class="divider"></li>
+									
+									<li class="dropdown-header"><a href="accueil.html#infos"><p class="topprestation">Informations</p></a></li>					
+										
+									
+								</ul>
+						</li>
 						<li class="dropdown">
 							<a href="prestation.html" class="dropdown-toggle" data-toggle="dropdown">PRESTATIONS <b class="caret"></b></a>
 								<ul class="dropdown-menu">
@@ -84,65 +98,196 @@
 	
 	<!-- Carousel-->
 	
-   <div class="carousel fade-carousel slide" data-ride="carousel" data-interval="4000" id="bs-carousel">
-	<!-- Overlay -->
-		<div class="overlay"></div>
+   <div class="carousel fade-carousel slide carousel-fade" data-ride="carousel" data-interval="4000" id="bs-carousel">
+  <!-- Overlay -->
 
-			<!-- Indicators -->
-				<ol class="carousel-indicators">
-					<li data-target="#bs-carousel" data-slide-to="0" class="active"></li>
-					<li data-target="#bs-carousel" data-slide-to="1"></li>
-					<li data-target="#bs-carousel" data-slide-to="2"></li>
-					<li data-target="#bs-carousel" data-slide-to="3"></li>
-				</ol>
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#bs-carousel" data-slide-to="0" class="active"></li>
+    <li data-target="#bs-carousel" data-slide-to="1"></li>
+    <li data-target="#bs-carousel" data-slide-to="2"></li>
+	<li data-target="#bs-carousel" data-slide-to="3"></li>
+  </ol>
   
-			<!-- Wrapper for slides -->
-				<div class="carousel-inner">
-					<div class="item slides active">
-					<div class="slide-1"></div>
-					<div class="hero">
-						<hgroup>
-							<h1>Moment de soi</h1>        
-							<h3>Institut de beauté</h3>
-										
-						</hgroup>
-        
-					</div>
-					</div>
-					
-					<div class="item slides">
-					<div class="slide-2"></div>
-					<div class="hero">        
-						<hgroup>
-							<h1>Moment de soi</h1>        
-							<h3>Institut de beauté</h3>
-						</hgroup>       
-        
-					</div>
-					</div>
-					
-					<div class="item slides">
-					<div class="slide-3"></div>
-					<div class="hero">        
-						<hgroup>
-							<h1>Moment de soi</h1>        
-							<h3>Institut de beauté</h3>
-						</hgroup>
-        
-					</div>
-					</div>
-					
-					<div class="item slides">
-					<div class="slide-4"></div>
-					<div class="hero">        
-						<hgroup>
-							<h1>Moment de soi</h1>        
-							<h3>Institut de beauté</h3>
-						</hgroup>
-        
-					</div>
-					</div>
-				</div> 
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item slides active">
+      <div class="slide-1">
+          <div class="overlay"></div>
+      </div>
+      <div class="hero">
+        <hgroup>
+            <h1>Moment de soi</h1>        
+            <h3>Institut de beauté et de bien être</h3>
+        </hgroup>
+        <a href="accueil.html#infos"><button class="btn btn-hero btn-lg" role="button">Informations</button></a>
+      </div>
+    </div>
+    <div class="item slides">
+      <div class="slide-2">
+          <div class="overlay"></div>
+      </div>
+      <div class="hero">        
+        <hgroup>
+            <h1>Moment de soi</h1>        
+            <h3>Institut de beauté et de bien être</h3>
+        </hgroup>       
+        <a href="accueil.html#infos"><button class="btn btn-hero btn-lg" role="button">Informations</button></a>
+      </div>
+    </div>
+    <div class="item slides">
+      <div class="slide-3">
+          <div class="overlay"></div>
+      </div>
+      <div class="hero">        
+        <hgroup>
+            <h1>Moment de soi</h1>        
+            <h3>Institut de beauté et de bien être</h3>
+        </hgroup>
+        <a href="accueil.html#infos"><button class="btn btn-hero btn-lg" role="button">Informations</button></a>
+      </div>
+    </div>
+	
+	<div class="item slides">
+      <div class="slide-4">
+          <div class="overlay"></div>
+      </div>
+      <div class="hero">        
+        <hgroup>
+            <h1>Moment de soi</h1>        
+            <h3>Institut de beauté et de bien être</h3>
+        </hgroup>
+        <a href="accueil.html#infos"><button class="btn btn-hero btn-lg" role="button">Informations</button></a>
+      </div>
+    </div>
+  </div> 
+</div>
+	
+	
+	
+	
+	
+	
+	<!-- Suggestion -->
+	
+	<div id="suggestion">
+	<section class="suggestion-home">
+      <div class="container">
+        <div class="">
+          <legend>Notre suggestion du moment</legend>
+          <div class="row-page row">
+		  <!-- Définir la taille de mes blocs -->
+            <div class="col-page col-sm-8 col-md-6">
+			<!-- Met ton ancre dans le lien -->
+              <a href="prestation.html#hydratation" class="cadretxt fondo-publicacion-home">
+                <div class="img-publicacion-principal-home">
+                  <img class="img-responsive" src="img/epilation.jpg">
+                </div>
+                <div class="contenido-publicacion-principal-home">
+                  <h3>EPILATION</h3>
+                  <p>Ce soin comprend bla bla bla...<span>...</span></p>
+                </div>
+                <div class="mascara-enlace-blog-home">
+                  <span>Voir </span>
+                </div>
+              </a>
+            </div>
+            
+			<!-- Définir la taille de mes blocs -->
+			<div class="col-page col-sm-4 col-md-3">
+			<!-- Met ton ancre dans le lien -->
+              <a href=""  class="fondo-publicacion-home">
+                <div class="img-publicacion-home">
+                  <img class="img-responsive" src="img/epilation.jpg">
+                </div>
+                <div class="contenido-publicacion-home">
+                  <h3>MASSAGE</h3>
+                  <p>Les massages sont des moments de bien être ...</p>
+                </div>
+                <div class="mascara-enlace-blog-home">
+                  <span>Voir</span>
+                </div>
+              </a>
+            </div>
+			
+			<!-- Définir la taille de mes blocs -->
+			<div class="col-page col-sm-4 col-md-3">
+			<!-- Met ton ancre dans le lien -->
+              <a href=""  class="fondo-publicacion-home">
+                <div class="img-publicacion-home">
+                  <img class="img-responsive" src="img/epilation.jpg">
+                </div>
+                <div class="contenido-publicacion-home">
+                  <h3>UVA</h3>
+                  <p>Les UVA sont des moments de bien être ...</p>
+                </div>
+                <div class="mascara-enlace-blog-home">
+                  <span>Voir</span>
+                </div>
+              </a>
+            </div>
+			
+			<!-- Définir la taille de mes blocs -->
+            <div class="hidden-sm col-page col-sm-4 col-md-3">
+			<!-- Met ton ancre dans le lien -->
+              <a href="" class="fondo-publicacion-home">
+                <div class="img-publicacion-home">
+                  <img class="img-responsive" src="img/yonka.jpg">
+                </div>
+                <div class="contenido-publicacion-home">
+                  <h3>Yon-ka 10</h3>
+                  <p>Ce produit est parfait pour....</p>
+                </div>
+                <div class="mascara-enlace-blog-home">
+                  <span>Voir</span>
+                </div>
+              </a>
+            </div>
+			
+			<!-- Définir la taille de mes blocs -->
+            <div class="hidden-sm col-page col-sm-4 col-md-3">
+			<!-- Met ton ancre dans le lien -->
+              <a href="" class="fondo-publicacion-home">
+                <div class="img-publicacion-home">
+                  <img class="img-responsive" src="img/yonka.jpg">
+                </div>
+                <div class="contenido-publicacion-home">
+                  <h3>Yon-ka 10</h3>
+                  <p>Ce produit est parfait pour....</p>
+                </div>
+                <div class="mascara-enlace-blog-home">
+                  <span>Voir</span>
+                </div>
+              </a>
+            </div>
+			
+			<!-- Définir la taille de mes blocs -->
+            <div class="hidden-sm col-page col-sm-4 col-md-3">
+			<!-- Met ton ancre dans le lien -->
+              <a href="" class="fondo-publicacion-home">
+                <div class="img-publicacion-home">
+                  <img class="img-responsive" src="img/yonka.jpg">
+                </div>
+                <div class="contenido-publicacion-home">
+                  <h3>Yon-ka 10</h3>
+                  <p>Ce produit est parfait pour....</p>
+                </div>
+                <div class="mascara-enlace-blog-home">
+                  <span>Voir</span>
+                </div>
+              </a>
+            </div>
+			
+			<!-- Définir la taille de mes blocs -->
+            <div class="col-page col-sm-4 col-md-3">
+              <a href="#" class="todas-las-publicaciones-home">
+                  <span>Notre suggestion de produit Yon-ka</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 	</div>
 	
 	
@@ -151,7 +296,7 @@
 	
 	<footer>
 	
-	<div class="container marketing">
+	<div id="infos" class="container marketing">
 
      
 	
@@ -159,14 +304,14 @@
 	 
 	 <div class="row">
         <div class="col-lg-4">
-          <a href="#baspage"><img class="img-circle" src="img/phone.png" alt="Generic placeholder image" width="100" height="100"></a>
+          <img class="img-circle" src="img/phone.png" alt="Generic placeholder image" width="100" height="100">
           <h2 class="text_footer">CONTACT</h2>
           <div class="col-md-4">
                     <ul class="part">
                         <li class="text_footer">Téléphone</li>
                         </br>
 												
-						<li id="baspage" class="text_footer">Mail</li>
+						<li class="text_footer">Mail</li>
                         
 					</ul>
 				</div>
@@ -184,7 +329,7 @@
         </div>
 		
         <div class="col-lg-4">
-          <a href="#baspage"><img class="img-circle" src="img/time.png" alt="Generic placeholder image" width="100" height="100"></a>
+          <img class="img-circle" src="img/time.png" alt="Generic placeholder image" width="100" height="100">
           <h2 class="text_footer">HORAIRES</h2>
           <div class="col-md-6">
                     <ul class="part">
@@ -209,7 +354,7 @@
 		
 		<div class="col-lg-4">
 		
-		<a href="#baspage"><img class="img-circle img-home" src="img/home.png" alt="Generic placeholder image" width="100" height="100"></a>
+		<img class="img-circle img-home" src="img/home.png" alt="Generic placeholder image" width="100" height="100">
           <h2 class="text_footer">NOUS TROUVER</h2>
 		  <p class="text_footer"> 547 rue Saint Jean  59246 Mons-en-Pévèle</p> 
 		

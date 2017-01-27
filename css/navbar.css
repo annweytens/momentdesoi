@@ -3,12 +3,13 @@
 =======================*/
 
 .topprestation{
-	text-align:left;
+	text-align:center;
 	color:#298A08;
 	Font-Weight: Bold;
 	font-size:14px;
 }
 .prestation{
+	text-align:center;
 	color:black;
 	font-size:11px;
 }
