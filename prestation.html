@@ -8,7 +8,7 @@
 		<script src="bootstrap/js/bootstrap.min.js"></script>
 		<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
 		<link rel="stylesheet" href="css/navbar.css">
-		<link href="css/Style.css" rel="stylesheet">
+		<link href="css/prestations.css" rel="stylesheet">
 		<link rel="stylesheet" href="css/footer.css">
 		<script type="text/javascript" src="js/script.js"></script> 
 
@@ -16,8 +16,6 @@
 	</head>
 
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
-
-<header>
 
 			<nav class="navbar navbar-default navbar-fixed-top">
 				<div class="container">
@@ -29,7 +27,7 @@
 						</button>
 						<a class="navbar-brand" href="#myPage"> <img class="logo_header" src="img/icone/iconeMDS.png"> </a>
 					</div>
-					
+				<div>	
 				<div class="collapse navbar-collapse" id="myNavbar">
 					<ul class="nav navbar-nav navbar-right">
 						<li><a href="accueil.html">ACCUEIL</a></li>
@@ -40,8 +38,8 @@
 									
 									<li class="dropdown-header"><a href="#"><p class="topprestation">SOINS VISAGE</p></a></li>
 										<li><a href="#nettoyage"><p class="prestation">Nettoyage profond</p></a></li>
-										<li><a href="#"><p class="prestation">Hydratation intense</p></a></li>
-										<li><a href="#"><p class="prestation">Anti-age</p></a></li>
+										<li><a href="#hydratation"><p class="prestation">Hydratation intense</p></a></li>
+										<li><a href="#antiage"><p class="prestation">Anti-age</p></a></li>
 										
 									<li class="divider"></li>
 									
@@ -72,19 +70,24 @@
 						<li><a href="#produit">PRODUIT YONKA</a></li>
 					</ul>
 				</div>
+				</div>
 			</div>
 		</nav>
 
-	</header>
 
 
 <!-- Container (Pricing Section) -->
+
 <div id="pricing" class="container-fluid">
   <div class="text-center">
     <h2>Soins du visage</h2>
     <h4>Take care of your skin</h4>
   </div>
-  <div class="row slideanim" id="nettoyage">
+
+  
+
+<div id="nettoyage" class="container-fluid">
+  <div class="row slideanim">
     <div class="col-sm-6 col-xs-12">
 	<img class="size" src="img/pied.jpg"></img>
     </div>          
@@ -105,10 +108,14 @@
           <h4>per month</h4>
         </div>
       </div>      
-    </div>  
+    </div> 
   </div>
+
   <hr width="100%">
-  
+ </div>
+ 
+ 
+ <div id="hydratation" class="container-fluid"> 
     <div class="row slideanim">        
     <div class="col-sm-6 col-xs-12">
       <div class="panel panel-default text-center">
@@ -133,7 +140,11 @@
     </div>  
   </div>
   <hr width="100%">
+  </div>
   
+  
+  
+ <div id="antiage" class="container-fluid"> 
   <div class="row slideanim">
     <div class="col-sm-6 col-xs-12">
 	<img class="size" src="img/pied.jpg"></img>
@@ -154,7 +165,7 @@
     </div>  
   </div>
   <hr width="100%">
-  
+</div>
   
 </div>
 
