@@ -23,21 +23,6 @@
       border-bottom-left-radius: 0px;
       border-bottom-right-radius: 0px;
   }
-  .panel-footer {
-      background-color: white !important;
-  }
-  .panel-footer h3 {
-      font-size: 32px;
-  }
-  .panel-footer h4 {
-      color: #aaa;
-      font-size: 14px;
-  }
-  .panel-footer .btn {
-      margin: 15px 0;
-      background-color: #811453;
-      color: #fff;
-  }
   
     .container-fluid {
       padding: 60px 50px;
@@ -46,6 +31,10 @@
   
     .size{
 	width:100%;
+}
+
+.marge{
+	padding:20px;
 }
 
 .slideanim {
