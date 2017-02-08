@@ -37,6 +37,31 @@
       color: #fff !important;
   }
   
+  .logo_header{
+	width:2.2%;
+	position:absolute;
+	top:0%;
+	left:2%;
+}
+	.logo_header2{
+	width:2.2%;
+	position:absolute;
+	top:0%;
+	left:2%;
+	visibility:hidden;
+}
+
+
+@media (max-width: 768px){
+	.logo_header{
+		visibility:hidden;
+		
+}
+.logo_header2{
+	visibility:visible;
+	width:8.5%;
+}
+  
   @media (max-width: 768px) {
 	  .navbar {
       margin-bottom: 0;
