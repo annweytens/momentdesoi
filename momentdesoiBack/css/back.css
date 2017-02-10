@@ -1,0 +1,30 @@
+.btnBackADD{
+	position:absolute;
+	top:70%;
+	left:40%;
+	width:10%;
+	z-index:3;
+	
+}
+
+.btnBackSUP{
+	position:absolute;
+	top:70%;
+	left:50%;
+	width:10%;
+	z-index:3;
+	
+}
+
+.ADDprestation{
+	color:Green;
+}
+
+.SUPprestation{
+	color:red;
+}
+
+.ModifFooter{
+	color:red;
+	text-decoration:none;
+}
